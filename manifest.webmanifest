@@ -1,0 +1,11 @@
+{
+ "id":"./", "name":"Ledger Arena", "short_name":"Ledger Arena",
+ "description":"Build accounting confidence with practical challenges and clear explanations.",
+ "start_url":"./", "scope":"./", "display":"standalone",
+ "background_color":"#f5f6f8", "theme_color":"#17694f", "lang":"en",
+ "icons":[
+  {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+  {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+  {"src":"icons/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+ ]
+}

@@ -1,0 +1,24 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function own(uid) { return request.auth != null && request.auth.uid == uid; }
+  match /users/{uid}/attempts/{event} {
+   allow read: if own(uid);
+   allow create: if own(uid) && request.resource.data.keys().hasOnly(['eventId','id','correct','selected','time','seconds','mode','numeric']) && request.resource.data.eventId == event && request.resource.data.id is string && request.resource.data.correct is bool && request.resource.data.selected is int && request.resource.data.selected >= 0 && request.resource.data.selected <= 3 && request.resource.data.time is number && request.resource.data.seconds is number && request.resource.data.mode is string;
+   allow update: if own(uid) && request.resource.data == resource.data;
+  }
+  match /users/{uid}/presented/{question} {
+   allow read: if own(uid);
+   allow create, update: if own(uid) && request.resource.data.keys().hasOnly(['id','time']) && request.resource.data.id == question && request.resource.data.time is number && request.resource.data.time >= 0;
+  }
+  match /users/{uid}/focusEvents/{event} {
+   allow read: if own(uid);
+   allow create: if own(uid) && request.resource.data.keys().hasOnly(['id','minutes','time']) && request.resource.data.id == event && request.resource.data.minutes is number && request.resource.data.minutes > 0 && request.resource.data.minutes <= 1440 && request.resource.data.time is number;
+   allow update: if own(uid) && request.resource.data == resource.data;
+  }
+  match /users/{uid}/state/meta {
+   allow read: if own(uid);
+   allow create, update: if own(uid) && request.resource.data.keys().hasOnly(['version','notes','notesUpdatedAt','focusBase']) && request.resource.data.version == 1 && request.resource.data.notes is string && request.resource.data.notes.size() <= 100000 && request.resource.data.notesUpdatedAt is number && request.resource.data.focusBase is number && request.resource.data.focusBase >= 0;
+  }
+ }
+}

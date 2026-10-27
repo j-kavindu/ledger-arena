@@ -1,0 +1,273 @@
+{
+  "total": 10210,
+  "basis": "Original 5,210 cases plus 5,000 calculation variants across 25 additional templates. Study allocation is not an official examination weighting.",
+  "coreStandards": [
+    "SMEs",
+    "SLFRS 18",
+    "SLFRS 15",
+    "SLFRS 9",
+    "SLFRS 16",
+    "SLFRS 10",
+    "SLFRS 3",
+    "LKAS 12",
+    "LKAS 36",
+    "LKAS 37",
+    "LKAS 16",
+    "LKAS 7",
+    "LKAS 38",
+    "LKAS 28",
+    "LKAS 2"
+  ],
+  "allocation": [
+    {
+      "standard": "SLFRS 15",
+      "cases": 1018,
+      "added": 200
+    },
+    {
+      "standard": "SLFRS 9",
+      "cases": 926,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 12",
+      "cases": 804,
+      "added": 400
+    },
+    {
+      "standard": "LKAS 16",
+      "cases": 800,
+      "added": 600
+    },
+    {
+      "standard": "LKAS 36",
+      "cases": 734,
+      "added": 400
+    },
+    {
+      "standard": "SLFRS 16",
+      "cases": 708,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 37",
+      "cases": 614,
+      "added": 400
+    },
+    {
+      "standard": "SLFRS 3",
+      "cases": 584,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 2",
+      "cases": 506,
+      "added": 400
+    },
+    {
+      "standard": "SLFRS 10",
+      "cases": 500,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 21",
+      "cases": 410,
+      "added": 400
+    },
+    {
+      "standard": "LKAS 7",
+      "cases": 388,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 38",
+      "cases": 306,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 28",
+      "cases": 305,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 33",
+      "cases": 230,
+      "added": 200
+    },
+    {
+      "standard": "SLFRS 5",
+      "cases": 220,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 23",
+      "cases": 213,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 40",
+      "cases": 212,
+      "added": 200
+    },
+    {
+      "standard": "LKAS 41",
+      "cases": 212,
+      "added": 200
+    },
+    {
+      "standard": "SMEs",
+      "cases": 212,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 18",
+      "cases": 112,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 19",
+      "cases": 22,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 20",
+      "cases": 22,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 8",
+      "cases": 22,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 2",
+      "cases": 13,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 26",
+      "cases": 12,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 29",
+      "cases": 12,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 32",
+      "cases": 12,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 34",
+      "cases": 12,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 11",
+      "cases": 12,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 13",
+      "cases": 12,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 17",
+      "cases": 12,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 8",
+      "cases": 3,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 10",
+      "cases": 3,
+      "added": 0
+    },
+    {
+      "standard": "Framework",
+      "cases": 3,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 1",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 24",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 27",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "LKAS 39",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 1",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 4",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 6",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 7",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 12",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 14",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "SLFRS 19",
+      "cases": 2,
+      "added": 0
+    },
+    {
+      "standard": "Smaller Entities",
+      "cases": 2,
+      "added": 0
+    }
+  ],
+  "sme2025": {
+    "total": 212,
+    "retained": 2,
+    "newJudgments": 50,
+    "newCalculations": 160,
+    "newCalculationMethods": 20,
+    "variantsPerMethod": 8,
+    "source": "sources/SMEs.pdf",
+    "effectiveDateInSuppliedEdition": "1 January 2027"
+  },
+  "expansion": {
+    "newCases": 5000,
+    "newTemplates": 25,
+    "variantsPerTemplate": 200
+  }
+}
