@@ -1,6 +1,6 @@
 'use strict';
-const CACHE='ledger-arena-offline-sync-20261027-1';
-const APP=['./','./index.html','./app.js','./auth.js','./progress-model.js','./cloud-sync.js','./pwa.js','./style.css','./bank.json','./catalog.json','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png'];
+const CACHE='ledger-arena-offline-dark-20261027-1';
+const APP=['./','./index.html','./app.js','./theme.js','./auth.js','./progress-model.js','./cloud-sync.js','./pwa.js','./style.css','./bank.json','./catalog.json','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(APP))));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith('ledger-arena-offline-')&&name!==CACHE)await caches.delete(name);await self.clients.claim()})()));
 self.addEventListener('message',event=>{if(event.data==='APPLY_UPDATE')self.skipWaiting()});
